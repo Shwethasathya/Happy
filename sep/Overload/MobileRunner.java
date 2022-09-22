@@ -29,6 +29,12 @@ public static void main(String[] phone)
 	String[] ref1={"vijaynagar", "rajajinagar", "magadi road"};
 	Mobile.serviceCentersAvailabilityPlaces=ref1;
 
+	int[] storage={32, 64, 128};
+	Mobile.storageCapacitiesAvailability=storage;
+	
+	int[] ram={4, 6, 8};
+	Mobile.typeOfRamAvailable=ram;
+	
 	Mobile.mobileDetails();
 	
 	System.out.println("end of main method");

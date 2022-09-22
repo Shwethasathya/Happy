@@ -16,7 +16,8 @@ static char chargerType;
 static String[] colors; 
 static String[] features;
 static String[] serviceCentersAvailabilityPlaces;
-
+static int[] storageCapacitiesAvailability;
+static int[] typeOfRamAvailable;
 
 static void mobileDetails()
 {
@@ -48,20 +49,40 @@ static void mobileDetails()
 	if(features!=null)
 	{
 		System.out.println("array is pointing to memory");
-		for(int index=0; index<colors.length; index++)
+		for(int index=0; index<features.length; index++)
 		{
-			String ref=colors[index];
-			System.out.println("colors are : "+ref+" is pointing to: "+index);
+			String ref=features[index];
+			System.out.println("features are : "+ref+" is pointing to: "+index);
 		
 		}
 	}
 	if(serviceCentersAvailabilityPlaces!=null)
 	{
 		System.out.println("array is pointing to memory");
-		for(int index=0; index<colors.length; index++)
+		for(int index=0; index<serviceCentersAvailabilityPlaces.length; index++)
 		{
-			String ref=colors[index];
-			System.out.println("colors are : "+ref+" is pointing to: "+index);
+			String ref=serviceCentersAvailabilityPlaces[index];
+			System.out.println("service centers : "+ref+" is pointing to: "+index);
+		
+		}
+	}
+	if(storageCapacitiesAvailability!=null)
+	{
+		System.out.println("array is pointing to memory");
+		for(int index=0; index<storageCapacitiesAvailability.length; index++)
+		{
+			int ref=storageCapacitiesAvailability[index];
+			System.out.println("storage are : "+ref+" is pointing to: "+index);
+		
+		}
+	}
+	if(typeOfRamAvailable!=null)
+	{
+		System.out.println("array is pointing to memory");
+		for(int index=0; index<typeOfRamAvailable.length; index++)
+		{
+			int ref=typeOfRamAvailable[index];
+			System.out.println("storage are : "+ref+" is pointing to: "+index);
 		
 		}
 	}
