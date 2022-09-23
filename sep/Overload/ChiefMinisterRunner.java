@@ -31,6 +31,12 @@ public static void main(String[] info)
 		String ref7=info[8];
 		System.out.println("index 8 :"+ref7);
 		
+		String ref8=info[9];
+		System.out.println("index 9 :"+ref8);
+		
+		String ref9=info[10];
+		System.out.println("index 8 :"+ref9);
+		
         System.out.println("Information :"+ info.length);
 }
 

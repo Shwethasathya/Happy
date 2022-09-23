@@ -9,7 +9,7 @@ public static void main(String[] information)
         System.out.println(" place in index 0 : "+place);
 		
 		String built=information[1];
-        System.out.println(" place in index 1 : "+built);
+        System.out.println(" built in index 1 : "+built);
 		
 		String address=information[2];
         System.out.println("address in index 2 :"+address);
@@ -32,6 +32,12 @@ public static void main(String[] information)
 		String material=information[8];
         System.out.println("buit material in index 8 :"+material);
         
+		String color=information[9];
+        System.out.println("color in index 9 :"+color);
+		
+		String ref=information[10];
+        System.out.println("ref index 10 :"+ref);
+		
         System.out.println("information :"+information.length);
 
 }
